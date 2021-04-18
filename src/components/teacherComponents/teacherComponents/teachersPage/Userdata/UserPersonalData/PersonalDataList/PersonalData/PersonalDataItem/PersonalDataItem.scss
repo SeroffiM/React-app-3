@@ -1,0 +1,57 @@
+.personalDataItem-container__manager {
+
+  width: 25rem;
+  height: 2rem;
+  margin-bottom: 15px;
+
+  .personalDataItem-content__manager{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    font-family: "IBM Plex Sans";
+    font-size: 1.7rem;
+  }
+
+  .personalDataItem-text__manager {
+
+  }
+
+  .personalDataItem-text-value__manager {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+}
+
+.personalDataItem-hobbies-container__manager {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  width: 24rem;
+
+  .personalDataItem-hobbies__manager {
+    list-style: initial;
+    padding: 0.7rem 0 0.7rem 0;
+  }
+
+  .personalDataItem-hobbies__manager:first-child {
+    padding-top: 0;
+  }
+
+  .personalDataItem-hobbies__manager:last-child {
+    padding-bottom: 0;
+  }
+}

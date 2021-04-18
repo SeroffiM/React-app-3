@@ -1,0 +1,33 @@
+.userData-container__manager {
+  .userAvatar-data-container__manager{
+    width: 150px;
+    height: 150px;
+  }
+  .userAvatar-container__manager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .userAvatar-img-container__manager {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .userAvatar-name__manager {
+    font-family: "IBM Plex Sans";
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .userAvatar-img-container__manager .userAvatar-img__manager {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+  }
+
+
+}
+

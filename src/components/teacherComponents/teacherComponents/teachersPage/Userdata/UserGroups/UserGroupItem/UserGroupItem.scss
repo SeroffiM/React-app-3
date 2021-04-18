@@ -1,0 +1,18 @@
+.userGroupsItem-container__manager{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+
+  .userGroupItem-text__manager{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: "IBM Plex Sans";
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .userGroupItem-link__manager:hover{
+      color: blue;
+  }
+}

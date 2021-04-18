@@ -1,0 +1,40 @@
+.userGroups-container__manager::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+.userGroups-container__manager::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #cbcde0;
+}
+
+.userGroups-container__manager::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+.userGroups-container__manager {
+  padding: 2rem 2rem;
+  overflow: auto;
+
+  .userGroups-header__manager {
+    font-size: 1.5rem;
+    font-family: "IBM Plex Sans";
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+  }
+
+  .userGroupItem-name__manager {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: "IBM Plex Sans";
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  }
+}

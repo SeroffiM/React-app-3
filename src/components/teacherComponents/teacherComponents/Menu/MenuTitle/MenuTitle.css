@@ -1,0 +1,39 @@
+.menu__item-link {
+    color: #1C1D25;
+}
+
+.menu__item-link:hover span, .menu__item-link:hover p {
+    color: #A20C20;
+}
+
+
+.menu__logo span {
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.73vw;
+    line-height: 0.73vw;
+    color: #1C1D25;
+    display: block;
+}
+
+.menu__logo-img {
+    width: 2vw;
+    height: 3.64vw;
+}
+
+.menu__logo-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu__logo {
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1.25vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.05em;
+    color: #1C1D25;
+}

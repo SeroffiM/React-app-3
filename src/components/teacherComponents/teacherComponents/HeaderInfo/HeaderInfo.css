@@ -1,0 +1,14 @@
+.header_container_teacher {
+    position: relative;
+    left: -10px;
+    z-index: -1;
+    padding-right: 10px;
+    width: calc(100% + 10px);
+    background: #686868;
+}
+
+.header__name {
+    margin-right: 10px;
+    color: red;
+}
+
